@@ -22,40 +22,40 @@ Partial Class MainForm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MainForm))
-        Me.grdMain = New System.Windows.Forms.DataGridView
-        Me.colName = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.colLastLoad = New System.Windows.Forms.DataGridViewTextBoxColumn
-        Me.colPath = New System.Windows.Forms.DataGridViewTextBoxColumn
+        Me.grdMain = New System.Windows.Forms.DataGridView()
+        Me.colName = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.colLastLoad = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.colPath = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.BindingSourceUserProfiles = New System.Windows.Forms.BindingSource(Me.components)
-        Me.btnClose = New System.Windows.Forms.Button
-        Me.btnDeleteClear = New System.Windows.Forms.Button
-        Me.btnExcludeUserProfile = New System.Windows.Forms.Button
-        Me.stsMain = New System.Windows.Forms.StatusStrip
-        Me.lblUserProfilesNotLoadByDays = New System.Windows.Forms.ToolStripStatusLabel
-        Me.lblUserProfilesNotLoadByDaysCount = New System.Windows.Forms.ToolStripStatusLabel
-        Me.lblUserProfilesExcluded = New System.Windows.Forms.ToolStripStatusLabel
-        Me.lblUserProfilesExcludedCount = New System.Windows.Forms.ToolStripStatusLabel
-        Me.lblUserProfiles = New System.Windows.Forms.ToolStripStatusLabel
-        Me.lblUserProfilesCount = New System.Windows.Forms.ToolStripStatusLabel
+        Me.btnClose = New System.Windows.Forms.Button()
+        Me.btnDeleteClear = New System.Windows.Forms.Button()
+        Me.btnExcludeUserProfile = New System.Windows.Forms.Button()
+        Me.stsMain = New System.Windows.Forms.StatusStrip()
+        Me.lblUserProfilesNotLoadByDays = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.lblUserProfilesNotLoadByDaysCount = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.lblUserProfilesExcluded = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.lblUserProfilesExcludedCount = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.lblUserProfiles = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.lblUserProfilesCount = New System.Windows.Forms.ToolStripStatusLabel()
         Me.tltMain = New System.Windows.Forms.ToolTip(Me.components)
-        Me.lblLastLoadDays = New System.Windows.Forms.Label
-        Me.tlsMain = New System.Windows.Forms.ToolStrip
-        Me.btnRefresh = New System.Windows.Forms.ToolStripButton
-        Me.btnSettings = New System.Windows.Forms.ToolStripButton
-        Me.btnUserProfilesExclusionList = New System.Windows.Forms.ToolStripButton
-        Me.btnToolsUserProfileSubDirectoriesList = New System.Windows.Forms.ToolStripButton
-        Me.mnsMain = New System.Windows.Forms.MenuStrip
-        Me.mniFile = New System.Windows.Forms.ToolStripMenuItem
-        Me.mniFileExit = New System.Windows.Forms.ToolStripMenuItem
-        Me.mniView = New System.Windows.Forms.ToolStripMenuItem
-        Me.mniViewRefresh = New System.Windows.Forms.ToolStripMenuItem
-        Me.mniTools = New System.Windows.Forms.ToolStripMenuItem
-        Me.mniToolsSettings = New System.Windows.Forms.ToolStripMenuItem
-        Me.mniToolsUserProfileExclusionList = New System.Windows.Forms.ToolStripMenuItem
-        Me.mniToolsUserProfileSubDirectoriesList = New System.Windows.Forms.ToolStripMenuItem
-        Me.nupLastLoadDays = New System.Windows.Forms.NumericUpDown
+        Me.lblLastLoadDays = New System.Windows.Forms.Label()
+        Me.tlsMain = New System.Windows.Forms.ToolStrip()
+        Me.btnRefresh = New System.Windows.Forms.ToolStripButton()
+        Me.btnSettings = New System.Windows.Forms.ToolStripButton()
+        Me.btnUserProfilesExclusionList = New System.Windows.Forms.ToolStripButton()
+        Me.btnToolsUserProfileSubDirectoriesList = New System.Windows.Forms.ToolStripButton()
+        Me.mnsMain = New System.Windows.Forms.MenuStrip()
+        Me.mniFile = New System.Windows.Forms.ToolStripMenuItem()
+        Me.mniFileExit = New System.Windows.Forms.ToolStripMenuItem()
+        Me.mniView = New System.Windows.Forms.ToolStripMenuItem()
+        Me.mniViewRefresh = New System.Windows.Forms.ToolStripMenuItem()
+        Me.mniTools = New System.Windows.Forms.ToolStripMenuItem()
+        Me.mniToolsSettings = New System.Windows.Forms.ToolStripMenuItem()
+        Me.mniToolsUserProfileExclusionList = New System.Windows.Forms.ToolStripMenuItem()
+        Me.mniToolsUserProfileSubDirectoriesList = New System.Windows.Forms.ToolStripMenuItem()
+        Me.nupLastLoadDays = New System.Windows.Forms.NumericUpDown()
         CType(Me.grdMain, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.BindingSourceUserProfiles, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.stsMain.SuspendLayout()
@@ -69,8 +69,8 @@ Partial Class MainForm
         Me.grdMain.AllowUserToAddRows = False
         Me.grdMain.AllowUserToDeleteRows = False
         Me.grdMain.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                    Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.grdMain.AutoGenerateColumns = False
         Me.grdMain.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.grdMain.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.colName, Me.colLastLoad, Me.colPath})
@@ -156,7 +156,7 @@ Partial Class MainForm
         'lblUserProfilesNotLoadByDays
         '
         Me.lblUserProfilesNotLoadByDays.Name = "lblUserProfilesNotLoadByDays"
-        Me.lblUserProfilesNotLoadByDays.Size = New System.Drawing.Size(173, 17)
+        Me.lblUserProfilesNotLoadByDays.Size = New System.Drawing.Size(182, 17)
         Me.lblUserProfilesNotLoadByDays.Text = "User Profiles not load by days {0}:"
         '
         'lblUserProfilesNotLoadByDaysCount
@@ -169,7 +169,7 @@ Partial Class MainForm
         'lblUserProfilesExcluded
         '
         Me.lblUserProfilesExcluded.Name = "lblUserProfilesExcluded"
-        Me.lblUserProfilesExcluded.Size = New System.Drawing.Size(117, 17)
+        Me.lblUserProfilesExcluded.Size = New System.Drawing.Size(125, 17)
         Me.lblUserProfilesExcluded.Text = "User profiles excluded:"
         '
         'lblUserProfilesExcludedCount
@@ -182,7 +182,7 @@ Partial Class MainForm
         'lblUserProfiles
         '
         Me.lblUserProfiles.Name = "lblUserProfiles"
-        Me.lblUserProfiles.Size = New System.Drawing.Size(71, 17)
+        Me.lblUserProfiles.Size = New System.Drawing.Size(75, 17)
         Me.lblUserProfiles.Text = "User profiles:"
         '
         'lblUserProfilesCount
@@ -260,20 +260,20 @@ Partial Class MainForm
         '
         Me.mniFile.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mniFileExit})
         Me.mniFile.Name = "mniFile"
-        Me.mniFile.Size = New System.Drawing.Size(35, 20)
+        Me.mniFile.Size = New System.Drawing.Size(37, 20)
         Me.mniFile.Text = "&File"
         '
         'mniFileExit
         '
         Me.mniFileExit.Name = "mniFileExit"
-        Me.mniFileExit.Size = New System.Drawing.Size(103, 22)
+        Me.mniFileExit.Size = New System.Drawing.Size(92, 22)
         Me.mniFileExit.Text = "E&xit"
         '
         'mniView
         '
         Me.mniView.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mniViewRefresh})
         Me.mniView.Name = "mniView"
-        Me.mniView.Size = New System.Drawing.Size(41, 20)
+        Me.mniView.Size = New System.Drawing.Size(44, 20)
         Me.mniView.Text = "&View"
         '
         'mniViewRefresh
@@ -282,7 +282,7 @@ Partial Class MainForm
         Me.mniViewRefresh.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.mniViewRefresh.Name = "mniViewRefresh"
         Me.mniViewRefresh.ShortcutKeys = System.Windows.Forms.Keys.F5
-        Me.mniViewRefresh.Size = New System.Drawing.Size(142, 22)
+        Me.mniViewRefresh.Size = New System.Drawing.Size(132, 22)
         Me.mniViewRefresh.Text = "Refresh"
         Me.mniViewRefresh.ToolTipText = "Refresh"
         '
@@ -290,28 +290,28 @@ Partial Class MainForm
         '
         Me.mniTools.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mniToolsSettings, Me.mniToolsUserProfileExclusionList, Me.mniToolsUserProfileSubDirectoriesList})
         Me.mniTools.Name = "mniTools"
-        Me.mniTools.Size = New System.Drawing.Size(44, 20)
+        Me.mniTools.Size = New System.Drawing.Size(47, 20)
         Me.mniTools.Text = "&Tools"
         '
         'mniToolsSettings
         '
         Me.mniToolsSettings.Image = Global.UPCleaner.My.Resources.Resources.PropertiesHS
         Me.mniToolsSettings.Name = "mniToolsSettings"
-        Me.mniToolsSettings.Size = New System.Drawing.Size(226, 22)
+        Me.mniToolsSettings.Size = New System.Drawing.Size(229, 22)
         Me.mniToolsSettings.Text = "&Settings"
         '
         'mniToolsUserProfileExclusionList
         '
         Me.mniToolsUserProfileExclusionList.Image = Global.UPCleaner.My.Resources.Resources.List
         Me.mniToolsUserProfileExclusionList.Name = "mniToolsUserProfileExclusionList"
-        Me.mniToolsUserProfileExclusionList.Size = New System.Drawing.Size(226, 22)
+        Me.mniToolsUserProfileExclusionList.Size = New System.Drawing.Size(229, 22)
         Me.mniToolsUserProfileExclusionList.Text = "User profiles &exclusion list"
         '
         'mniToolsUserProfileSubDirectoriesList
         '
         Me.mniToolsUserProfileSubDirectoriesList.Image = Global.UPCleaner.My.Resources.Resources.CopyFolderHS
         Me.mniToolsUserProfileSubDirectoriesList.Name = "mniToolsUserProfileSubDirectoriesList"
-        Me.mniToolsUserProfileSubDirectoriesList.Size = New System.Drawing.Size(226, 22)
+        Me.mniToolsUserProfileSubDirectoriesList.Size = New System.Drawing.Size(229, 22)
         Me.mniToolsUserProfileSubDirectoriesList.Text = "User profile sub&directories list"
         '
         'nupLastLoadDays
@@ -343,7 +343,6 @@ Partial Class MainForm
         Me.Name = "MainForm"
         Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "User profiles"
         CType(Me.grdMain, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.BindingSourceUserProfiles, System.ComponentModel.ISupportInitialize).EndInit()
         Me.stsMain.ResumeLayout(False)

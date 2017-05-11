@@ -8,8 +8,8 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("UPCleaner")> 
-<Assembly: AssemblyDescription("UPCleaner - User Profile Cleaner")> 
+<Assembly: AssemblyTitle("UPCleaner")>
+<Assembly: AssemblyDescription("User Profile Cleaner")>
 <Assembly: AssemblyCompany("DevAdmin")> 
 <Assembly: AssemblyProduct("UPCleaner")> 
 <Assembly: AssemblyCopyright("Copyright © Ermanno Goletto 2010")> 
@@ -18,7 +18,7 @@ Imports System.Runtime.InteropServices
 <Assembly: ComVisible(False)>
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
-<Assembly: Guid("91a6bdce-40d5-4073-8cb4-1a995dec8524")> 
+<Assembly: Guid("91a6bdce-40d5-4073-8cb4-1a995dec8524")>
 
 ' Version information for an assembly consists of the following four values:
 '
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("1.0.0.0")> 
-<Assembly: AssemblyFileVersion("1.0.0.0")> 
+<Assembly: AssemblyVersion("1.1.0.0")>
+<Assembly: AssemblyFileVersion("1.1.0.0")>

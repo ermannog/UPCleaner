@@ -3,6 +3,10 @@
     Private labelUserProfilesNotLoadByDaysTextDefault As String = String.Empty
 
     Private Sub MainForm_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        Me.Text = My.Application.Info.AssemblyName & " " &
+            String.Format("{0}.{1}.{2}", My.Application.Info.Version.Major, My.Application.Info.Version.Minor, My.Application.Info.Version.Build) & " - " &
+            My.Application.Info.Description
+
         Me.labelUserProfilesNotLoadByDaysTextDefault = Me.lblUserProfilesNotLoadByDays.Text
         Me.nupLastLoadDays.Value = My.Settings.LastLoadDays
         Me.isLoading = False
