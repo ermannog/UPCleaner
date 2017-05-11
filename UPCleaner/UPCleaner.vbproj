@@ -61,7 +61,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApplicationEvents.vb" />
-    <Compile Include="Class1.vb" />
     <Compile Include="UserProfileSubDirectoriesListForm.Designer.vb">
       <DependentUpon>UserProfileSubDirectoriesListForm.vb</DependentUpon>
     </Compile>
